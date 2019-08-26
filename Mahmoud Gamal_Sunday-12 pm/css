@@ -1,0 +1,243 @@
+/* start of section home */
+.navbar-light
+{
+    background-color: #000;
+}
+.navbar-light .navbar-nav .active>.nav-link
+{
+    color:#fff;
+}
+.navbar-light .navbar-nav .active>.nav-link:hover
+{
+    color:#ec3237;
+}
+.navbar-light .navbar-nav .active>.nav-link .bord
+{
+    border-bottom: 2.5px solid #ec3237;
+    color: #ec3237;
+    padding-bottom: 22px;
+}
+.home
+{
+    height: 650px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home .overlay
+{
+    width:100%;
+    height: 100%;
+    background-color: rgba(236, 51, 55, 0.7);
+}
+.home .overlay .btn-outline-light
+{
+    border-radius: 0;
+    border-width: 2px;
+}
+.home .overlay .btn-outline-light:hover
+{
+    color:rgba(236, 51, 55, 0.7);
+}
+.home .overlay .caption
+{
+    width: 80%;
+}
+.home .overlay .caption h1
+{
+    font-weight: 700;
+    font-size: 3.5em;
+    color: #ffffff;
+    text-shadow: 0px 5px 10px #af2424;
+}
+.home .fa-angle-down
+{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top:85%;
+    left: 49%;
+    animation-name: anime;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+    transition: top 1s;
+}
+@keyframes anime
+{
+    0%{top:85%;}
+    100%{top:88%;}
+}
+/* end of section home */
+
+/* start of section about me */
+.about p
+{
+    color: #777777;
+}
+.about .btn
+{
+    border-radius: 0;
+}
+.about i
+{
+    border: 1px solid gray;
+    color: gray;
+    font-size: 20px;
+}
+.about i:hover
+{
+    background-color: #ec3237;
+    border: 1px solid #ec3237;
+    color: white;
+}
+/* end of section about me */
+
+/* start of section work */
+.work
+{
+    background: #f5f5f5;
+}
+.work p
+{
+    font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+}
+.work .catagory i
+{
+    background-color: #f5f5f5;
+}
+.work .catagory .discrip:hover i
+{
+    background-color: rgb(236, 51, 55);
+    color: white;
+}
+.work .catagory .discrip:hover h4
+{
+    color: rgb(236, 51, 55);
+}
+.work .btn
+{
+    border-radius: 0;
+}
+/* end of section work */
+
+/* start of section numbers */
+.numbers
+{
+    background-image: url(../images/project-counter.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.numbers .num
+{
+    border: 1px solid gray;
+}
+.numbers i
+{
+    color: #ec3237;
+    font-size: 25px;
+}
+.numbers h4
+{
+    color: #ec3237;
+}
+/* end of section numbers */
+
+/* start of section portfolio */
+.portfolio
+{
+    background-color: #f5f5f5;
+}
+.portfolio p
+{
+    color:#777777;
+}
+.portfolio .port .a
+{
+    border:2px solid #dddddd;
+}
+.portfolio .port .a:hover
+{
+    color:#ec3237;
+    border:2px solid #ec3237;
+}
+.portfolio .port .all
+{
+    border:2px solid #ec3237;
+    color: white;
+    background-color: #ec3237;
+}
+.portfolio .dis
+{
+    width: 100%;
+    box-shadow: 0px 0.1px 0px;
+}
+.portfolio .dis a
+{
+    display: block;
+}
+.portfolio .dis i
+{
+    background-color: #000;
+    color:#fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 80px;
+    left: 48%;
+}
+.portfolio .dis:hover i
+{
+    background-color: #ec3237;
+}
+.portfolio .btn
+{
+    border-radius: 0;
+}
+/* end of section portfolio */
+
+/* start of section info */
+.information
+{
+    background-image: url(../images/client-testimonial.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.information img
+{
+    border: #ec3237 5px solid;
+    border-radius: 50%;
+}
+.information h3
+{
+    color:#ec3237;
+}
+/* end of section info */
+
+/* start of section contact */
+.contact p
+{
+    color:#777777;
+}
+.contact .info i
+{
+    font-size: 12px; 
+}
+.contact ul i
+{
+    border: 1px solid gray;
+    color: gray;
+    font-size: 20px;
+}
+.contact ul i:hover
+{
+    background-color: #ec3237;
+    border: 1px solid #ec3237;
+    color: white;
+}
+.contact .btn, .contact input ,.contact textarea
+{
+    border-radius: 0;
+}
+/* end of section contact */
